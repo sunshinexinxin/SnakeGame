@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bgover_png" x="0" y="0"/>
+	<e:Image source="sc4arc1_png" x="73" y="83" width="98" height="88"/>
+	<e:Image id="sc4wheel2" x="60" y="110" source="sc4wheel2_png" width="96" height="95"  anchorOffsetX="48" anchorOffsetY="47.5"/>
+	<e:Image id="sc4wheel1" x="126" y="170" source="sc4wheel1_png" width="53" height="53" anchorOffsetX="26.5" anchorOffsetY="26.5" />
+	<e:ToggleButton id="again"  label="Again" x="426" y="382" skinName="myBtnSkin" />
+	<e:ToggleButton id="back" label="Back" x="245" y="384" skinName="myBtnSkin"/>
+	<e:Label id="titleLabel" text="得分" x="230" y="116" width="136" textColor="0xFF0000" fontFamily="Arial Black" bold="true" textAlign="center"/>
+	<e:Label id="scoreLabel" x="271" y="159" text="0" size="20" fontFamily="Arial Black" bold="true" textColor="0xF1F90C" textAlign="center"  width="52"/>
+	<e:Label id="chenghaoLabel" text="初出茅庐" x="244" y="198" textColor="0xFF0000" fontFamily="Arial Black" bold="true" textAlign="center"/>
+	<e:Label  x="176" text="历史最高分："  y="281" size="25" textColor="0xFF0000" fontFamily="Arial Black" bold="true"/>
+	<e:Label id="scoreMaxLabel" textColor="0x0021FF" text="0" textAlign="center" width="52" size="20" x="10" horizontalCenter="-45" y="287"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="rankPanelSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="alertBg_png" x="22" y="7"/>
+	<e:Image id="panelBtn" source="acceptBtn_png" x="180" y="230"/>
+	<e:EditableText id="panelText1" width="295" height="126" x="55" y="40" verticalAlign="middle" textAlign="center" multiline="true" size="30" textColor="0x02070D"/>
+	<e:Label text="历史最高分为：" textAlign="center" horizontalCenter="-17" verticalCenter="-84" bold="true" strokeColor="0x030200" stroke="0.5" size="34" textColor="0x000000" fontFamily="Arial Black" height="46"/>
+	<e:BitmapLabel id="score" x="176" y="88" font="font_fnt" text="0" textAlign="center"/>
+</e:Skin>

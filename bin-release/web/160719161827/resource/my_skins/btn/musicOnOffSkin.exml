@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="musicOnOffSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="152"
+        height="68" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="btn1" source="btn_music_down_png" x="72" includeIn="up,down,disabled" verticalCenter="0"/>
+	<e:Image id="btn2" source="btn_music_png" x="64" y="0" verticalCenter="1" includeIn="upAndSelected,downAndSelected,disabledAndSelected" height="64" horizontalCenter="34"/>
+	<e:Label text="{label}" x="8" y="16" horizontalCenter="-39" verticalCenter="1" size="14" textColor="0x02070D"/>
+</e:Skin>

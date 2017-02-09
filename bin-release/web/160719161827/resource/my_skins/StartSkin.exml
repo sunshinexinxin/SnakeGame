@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="startbg_png" x="0" y="0"/>
+	<e:Image source="name_png" x="553" y="-23"/>
+	<e:Image source="snakeIcon_png" x="322" y="102" width="216" height="246"/>
+	<e:ToggleButton id="setting" label="Setting" x="426" y="382" skinName="myBtnSkin" />
+	<e:ToggleButton id="startGame" label="Start" x="245" y="384" skinName="myBtnSkin"/>
+	<e:ToggleButton id="rank" label="Rank" x="57" y="384" skinName="myBtnSkin"/>
+	<e:ToggleButton id="help" label="Help" x="608" y="381" skinName="myBtnSkin"/>
+</e:Skin>

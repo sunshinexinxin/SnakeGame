@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameUiSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="alertBg_png" x="-2" y="-4" height="576" width="245" horizontalCenter="-293" verticalCenter="-2"/>
+	<e:Image source="bg2_png" x="1" y="-3"/>
+	<e:Image id="gameMap" source="ground_jpg" x="242" y="26" width="540" height="420" horizontalCenter="108" verticalCenter="0"/>
+	<e:Image id="wall1" source="wall_02_png" rotation="90" horizontalCenter="-175" verticalCenter="0"/>
+	<e:Image id="wall2" source="wall_02_png"  horizontalCenter="118" height="30" y="451"/>
+	<e:Image id="wall3" source="wall_02_png" horizontalCenter="118" verticalCenter="-225.5" height="31"/>
+	<e:Image id="wall4" source="wall_02_png"  rotation="90" horizontalCenter="392" verticalCenter="0"/>
+	<e:Label text="分数：" textAlign="center" verticalAlign="middle" horizontalCenter="-293" verticalCenter="-189" bold="true" strokeColor="0x030200" stroke="0.5" textColor="0xC68712"/>
+	<e:BitmapLabel id="score" x="143" y="17" font="font_fnt" text="0"/>
+	<e:ToggleButton id="upbtn" x="60" y="313">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="up1_png" source.down="up_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="leftbtn" y="358" x="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="left1_png" source.down="left_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="downbtn" x="60" y="403">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="down1_png" source.down="down_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="rightbtn" x="123" y="357">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="right1_png" source.down="right_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group x="19" y="126">
+		<e:Label y="4.015151515151558" textColor="0x0602F5" text="当前关卡：" width="136" height="23" x="0" fontFamily="微软雅黑" size="20" bold="true"/>
+		<e:Label id="speedInfo" y="0" textColor="0x000000" x="112.95454545454545" width="71" text="1"/>
+	</e:Group>
+	<e:Label id="tipsInfo" y="162" height="38" fontFamily="微软雅黑" bold="true" width="197" size="20" x="12" textColor="0xFF0004"/>
+	<e:Label text="时间：" x="7" y="226" textColor="0x0602F5" size="20" bold="true" width="64" height="24" fontFamily="微软雅黑"/>
+	<e:Label id="timesInfo" x="62" y="221" width="134" fontFamily="微软雅黑" bold="true"  textColor="0xFF0004" height="33" text="00:00:00"/>
+	<e:Image source="snakeGirl_png" x="-12" y="-12" width="100" height="146"/>
+</e:Skin> 

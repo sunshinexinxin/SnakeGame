@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="loadingSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="loadingbg" source="loading_jpg" x="0" y="0"/>
+	<e:Image id="gamename" source="name_png" horizontalCenter="15.5" verticalCenter="-83.5"/>
+	<e:Image id="loadingbarbg" source="loadingbarbg_png" horizontalCenter="23.5" verticalCenter="151.5" height="27"/>
+	<e:Image id="loadingbarpic" source="loadingbarpic_png" height="22" verticalCenter="151" width="0" x="149"/>
+</e:Skin>

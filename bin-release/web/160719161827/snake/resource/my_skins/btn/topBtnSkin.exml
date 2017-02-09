@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="topBtnSkin"
+        states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="84"
+        height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="btn" source="up1_png" horizontalCenter="0" verticalCenter="1" includeIn="upAndSelected,downAndSelected,disabledAndSelected"/>
+	<e:Image id="btn1" source="up_png" horizontalCenter="0" verticalCenter="1" includeIn="up,down,disabled"/>
+</e:Skin>

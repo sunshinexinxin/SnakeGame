@@ -1,0 +1,1 @@
+{"version":3,"file":"LoadEvent.js","sourceRoot":"","sources":["../../src/Event/LoadEvent.ts"],"names":[],"mappings":"AAAA;;;GAGG;AACH;IAAwB,6BAAiB;IACtC;;;;;OAKG;IACF,mBAAmB,IAAY,EAAC,OAAwB,EAAC,UAA2B;QAApD,uBAAwB,GAAxB,eAAwB;QAAC,0BAA2B,GAA3B,kBAA2B;QAChF,kBAAM,IAAI,EAAC,OAAO,EAAC,UAAU,CAAC,CAAC;IACnC,CAAC;;IACL,gBAAC;AAAD,CAAC,AAVD,CAAwB,GAAG,CAAC,aAAa,GAUxC;oBAVK,SAAS;AAUd"}
